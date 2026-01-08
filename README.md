@@ -1,10 +1,7 @@
 # 🌿 MindEase AI Companion
 
-**MindEase AI** is an empathetic, mood-aware Mental Health AI Companion designed specifically to support youth. It provides a safe, non-judgmental space for users to express their feelings, leveraging **Retrieval-Augmented Generation (RAG)** to deliver verified wellness strategies and emotional support.
+**MindEase AI** is an empathetic, mood-aware Mental Health AI Companion.
 
-Unlike standard chatbots, MindEase is grounded in a curated database of mental health resources, ensuring that its suggestions for coping mechanisms, breathing exercises, and CBT techniques are based on **trusted content**, not generic AI patterns.
-
----
 
 ## 🚀 Key Features
 
@@ -27,21 +24,12 @@ Uses structured Markdown formatting (headers, bold text, lists) for easy readabi
 
 ## 🛠️ Tech Stack
 
-### 🧠 Backend (The Brain)
 
 - **Python / Flask** – Lightweight API server  
 - **LangChain** – Orchestrates the RAG pipeline and prompt logic  
 - **Google Gemini 2.5 Flash** – Core LLM for empathetic reasoning  
 - **ChromaDB** – Local vector database for document storage  
 - **HuggingFace Embeddings** – `all-MiniLM-L6-v2` for vector generation  
-
-### 🎭 Frontend (The Face)
-
-- **React 18** – Responsive single-page application  
-- **Tailwind CSS** – Modern, fluid UI styling  
-- **Marked.js** – Renders Markdown responses into clean HTML  
-
----
 
 ## 🧠 Core Operating Principles
 
